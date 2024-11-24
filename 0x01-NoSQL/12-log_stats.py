@@ -43,12 +43,12 @@ if __name__ == "__main__":
           '\n' +
           f'\tmethod GET: {get}' +
           '\n' +
-          f'\tmethod POST:{post}' +
+          f'\tmethod POST: {post}' +
           '\n' +
-          f'\tmethod PUT:{put}' +
+          f'\tmethod PUT: {put}' +
           '\n' +
-          f'\tmethod PATCH:{patch}' +
+          f'\tmethod PATCH: {patch}' +
           '\n' +
-          f'\tmethod DELETE:{delete}' +
+          f'\tmethod DELETE: {delete}' +
           '\n' +
           f'{status} status check')
