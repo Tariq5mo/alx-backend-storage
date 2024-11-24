@@ -14,7 +14,7 @@ def schools_by_topic(mongo_collection, topic):
     Returns:
         list: List of schools having the specific topic
     """
-    return list(mongo_collection.find({"topics": topic}))
+    return mongo_collection.find({"topics": topic})
 
 
 if __name__ == "__main__":
